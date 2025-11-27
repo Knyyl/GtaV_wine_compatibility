@@ -1,7 +1,3 @@
-Here you go — a clean, professional GitHub-ready **README.md** guide based on your notes, rewritten for clarity while keeping everything accurate.
-
----
-
 # Running GTA with Ultimate ASI Loader on Arch Linux (Bottles + Wine Staging)
 
 This guide explains how to run GTA (modded or unmodded) on **Arch Linux (x86_64)** using **Bottles (Flatpak)**, **Wine-Staging 10.19**, and a custom **ASI Loader (dinput8.dll)**.
