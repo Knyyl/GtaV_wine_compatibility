@@ -13,6 +13,7 @@ You can set up everything yourself *or* use the provided Wine prefix.
 * Ultimate ASI Loader (Win64)
   → [https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases)
 * Your GTA installation directory
+* Sept. 27 2025
 
 ---
 
