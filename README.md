@@ -5,7 +5,13 @@ You can set up everything yourself *or* use the provided Wine prefix.
 
 ---
 
-## Tested on this config
+Now, you may ask yourself, why didn't I just use Bottles and installed the dependencies there? 
+Well, for some reason Bottles is broken on my system, and cant load the dll files. Its likely related to something being broken bc of arch (I use arch btw)
+Anyways, this makes it work, so enjoy.
+I dont think that I need to mention this, but if youre planing on going online with this, you're risking getting banned. I hold no responsibility if you do. 
+However, if you must, remove the dllinjection of dinput8, load into story and then into online.
+
+## Tested with this config
 
 * Arch Linux (x86_64)
 * Bottles (Flatpak)
@@ -37,9 +43,11 @@ Bottles stores prefixes under:
 If you want to try it with mine:
 
 Place it reasonably, so you can find it easyly in case you loose the path
+Head over to releases and download it, then unzip.
 
 ### 3. Install Dependencies
-Enter your WINEPREFIX
+Export your WINEPREFIX to console (eighter my uploaded one or the one you created)
+Remeber to change youruser to (shocking) your user name, and the prefix name, and path if not using bottles way, aswell
 ```
 export WINEPREFIX="/home/youruser/.var/app/com.usebottles.bottles/data/bottles/bottles/your-bottle-name"
 ```
@@ -52,7 +60,7 @@ winetricks d3dcompiler_43 d3dx9_43 dinput8 xinput
 winetricks d3dx11_43
 winetricks d3dx9 d3dx10 d3dx11 dxvk
 ```
-Even if you see errors, try if it worked at the end. Were practially bombing the prefix with required packages, without bloating it *too* hard
+Even if you see errors, try if it worked at the end. We're practially bombing the prefix with required packages, without bloating it *too* hard
 
 ### 4. Install Ultimate ASI Loader
 
@@ -61,7 +69,7 @@ Download the latest release and place **dinput8.dll** (win64) inside your GTA ga
 Alternatively, you can try to use other ones, such as the OpenIV asi loader, but revert back to this one if it fails.
 
 
-## ▶Launching the Game
+## Launching the Game
 
 Creating the launch script
 
