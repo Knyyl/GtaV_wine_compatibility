@@ -58,7 +58,7 @@ Even if you see errors, try if it worked at the end. Were practially bombing the
 ### 4. Install Ultimate ASI Loader
 
 Download the latest release and place **dinput8.dll** (win64) inside your GTA game root folder.
-→ [https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases](Ultimate ASI Loader)
+→ [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases])
 Alternatively, you can try to use other ones, such as the OpenIV asi loader, but revert back to this one if it fails.
 
 
